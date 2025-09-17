@@ -1,0 +1,62 @@
+.login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.login .leftPanel{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(35, 10, 5);
+    width: 400px;
+}
+.login .rightPanel{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .rightPanel .card{
+    width: 300px;
+    padding: 20px;
+    background: rgb(239, 220, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.login .rightPanel .card input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.login .rightPanel .card input:focus{
+    border: 1px solid rgb(105, 62, 112);
+}
+.login .rightPanel .card button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(105, 62, 112);
+    color: white;
+    cursor: pointer;
+}
+.login .rightPanel .card button:hover{
+    background: rgb(196, 71, 208);
+}
+.login .leftPanel h1{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.login .leftPanel p{
+    font-size: 24px;
+}
+.login .rightPanel p span{
+    color: rgb(105, 62, 112);
+    cursor: pointer;
+}
